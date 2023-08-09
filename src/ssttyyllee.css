@@ -1,6 +1,19 @@
-#MUIbutton{
-    color: whitesmoke;
-    font-size: 120%;
-    padding: 0.25rem;
-    font-weight: bold;
+#searchbutton{
+    height: 50px;
+    width: 40px;
+    padding: 0;
+    background-color: rgba(0,0,0,0);
+    box-shadow: none;
+}
+#searchfield{
+    display: inline-block;
+    margin: 0;
+}
+#searchbuttonclass{
+    display: inline-block;
+}
+#search{
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }

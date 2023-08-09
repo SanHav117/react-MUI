@@ -1,18 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import BUTTON from './Components/BUTTON';
-import GRID from './Components/GRID';
+import SearchBar from './Components/SearchBar';
 import { Container } from '@mui/material';
+import SearchButton from './Components/SearchButton';
+import SearchGrid from './Components/SeachGrid';
+import './ssttyyllee.css';
 
 function App() {
   return (
     <>
-    <Container maxWidth="sm">
-        <GRID />
-        <BUTTON />
-        <BUTTON />
-        <BUTTON />
-    </Container>
+    <SearchGrid />
     </>
   );
 }
